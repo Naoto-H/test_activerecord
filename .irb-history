@@ -1,0 +1,5 @@
+p = Post.new(title: 'title 1', body: 'body 1')
+p.save
+Post.create(title: 'title 2', body: 'body 2')
+Post.all
+quit
